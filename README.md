@@ -1,4 +1,4 @@
 # iOS-Githubpages-Helpcenter
-Create help pages for application using SwiftUI. 
+Create help pages for application using SwiftUI Demo.
 
 
