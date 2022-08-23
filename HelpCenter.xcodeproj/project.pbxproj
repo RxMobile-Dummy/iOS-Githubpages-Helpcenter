@@ -7,23 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D67BAF0028B4F51E00967413 /* SupportDocs in Frameworks */ = {isa = PBXBuildFile; productRef = D67BAEFF28B4F51E00967413 /* SupportDocs */; };
 		D6A5F84F28B3B85000CB08FB /* HelpCenterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A5F84E28B3B85000CB08FB /* HelpCenterApp.swift */; };
-		D6A5F85128B3B85000CB08FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A5F85028B3B85000CB08FB /* ContentView.swift */; };
 		D6A5F85328B3B85300CB08FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6A5F85228B3B85300CB08FB /* Assets.xcassets */; };
 		D6A5F85628B3B85300CB08FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6A5F85528B3B85300CB08FB /* Preview Assets.xcassets */; };
 		D6A5F86028B3B85300CB08FB /* HelpCenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A5F85F28B3B85300CB08FB /* HelpCenterTests.swift */; };
 		D6A5F86A28B3B85300CB08FB /* HelpCenterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A5F86928B3B85300CB08FB /* HelpCenterUITests.swift */; };
 		D6A5F86C28B3B85300CB08FB /* HelpCenterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A5F86B28B3B85300CB08FB /* HelpCenterUITestsLaunchTests.swift */; };
 		D6A5F87D28B3B90900CB08FB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A5F87C28B3B90900CB08FB /* Model.swift */; };
-		D6A5F87F28B3B91600CB08FB /* SampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A5F87E28B3B91600CB08FB /* SampleView.swift */; };
-		D6A5F88128B3B92100CB08FB /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A5F88028B3B92100CB08FB /* ViewModel.swift */; };
+		D6A5F87F28B3B91600CB08FB /* DocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A5F87E28B3B91600CB08FB /* DocumentView.swift */; };
 		D6A5F88328B3B92C00CB08FB /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A5F88228B3B92C00CB08FB /* Constant.swift */; };
 		D6A5F88528B3B93700CB08FB /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A5F88428B3B93700CB08FB /* Config.swift */; };
-		D6A5F88C28B3B96600CB08FB /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6A5F88728B3B96600CB08FB /* Raleway-Light.ttf */; };
-		D6A5F88D28B3B96600CB08FB /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6A5F88828B3B96600CB08FB /* Raleway-Medium.ttf */; };
-		D6A5F88E28B3B96600CB08FB /* Raleway-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6A5F88928B3B96600CB08FB /* Raleway-Black.ttf */; };
-		D6A5F88F28B3B96600CB08FB /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6A5F88A28B3B96600CB08FB /* Raleway-Bold.ttf */; };
-		D6A5F89028B3B96600CB08FB /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6A5F88B28B3B96600CB08FB /* Raleway-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +40,6 @@
 /* Begin PBXFileReference section */
 		D6A5F84B28B3B85000CB08FB /* HelpCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelpCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6A5F84E28B3B85000CB08FB /* HelpCenterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpCenterApp.swift; sourceTree = "<group>"; };
-		D6A5F85028B3B85000CB08FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D6A5F85228B3B85300CB08FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6A5F85528B3B85300CB08FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D6A5F85B28B3B85300CB08FB /* HelpCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelpCenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,15 +48,9 @@
 		D6A5F86928B3B85300CB08FB /* HelpCenterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpCenterUITests.swift; sourceTree = "<group>"; };
 		D6A5F86B28B3B85300CB08FB /* HelpCenterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpCenterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D6A5F87C28B3B90900CB08FB /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		D6A5F87E28B3B91600CB08FB /* SampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleView.swift; sourceTree = "<group>"; };
-		D6A5F88028B3B92100CB08FB /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		D6A5F87E28B3B91600CB08FB /* DocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentView.swift; sourceTree = "<group>"; };
 		D6A5F88228B3B92C00CB08FB /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		D6A5F88428B3B93700CB08FB /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
-		D6A5F88728B3B96600CB08FB /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
-		D6A5F88828B3B96600CB08FB /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Medium.ttf"; sourceTree = "<group>"; };
-		D6A5F88928B3B96600CB08FB /* Raleway-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Black.ttf"; sourceTree = "<group>"; };
-		D6A5F88A28B3B96600CB08FB /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
-		D6A5F88B28B3B96600CB08FB /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D67BAF0028B4F51E00967413 /* SupportDocs in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,11 +103,9 @@
 			isa = PBXGroup;
 			children = (
 				D6A5F87B28B3B8F900CB08FB /* Helper */,
-				D6A5F87A28B3B8F300CB08FB /* ViewModel */,
 				D6A5F87928B3B8ED00CB08FB /* View */,
 				D6A5F87828B3B8E600CB08FB /* Model */,
 				D6A5F84E28B3B85000CB08FB /* HelpCenterApp.swift */,
-				D6A5F85028B3B85000CB08FB /* ContentView.swift */,
 				D6A5F85228B3B85300CB08FB /* Assets.xcassets */,
 				D6A5F85428B3B85300CB08FB /* Preview Content */,
 			);
@@ -162,39 +148,18 @@
 		D6A5F87928B3B8ED00CB08FB /* View */ = {
 			isa = PBXGroup;
 			children = (
-				D6A5F87E28B3B91600CB08FB /* SampleView.swift */,
+				D6A5F87E28B3B91600CB08FB /* DocumentView.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		D6A5F87A28B3B8F300CB08FB /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				D6A5F88028B3B92100CB08FB /* ViewModel.swift */,
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		D6A5F87B28B3B8F900CB08FB /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				D6A5F88628B3B93A00CB08FB /* Font */,
 				D6A5F88228B3B92C00CB08FB /* Constant.swift */,
 				D6A5F88428B3B93700CB08FB /* Config.swift */,
 			);
 			path = Helper;
-			sourceTree = "<group>";
-		};
-		D6A5F88628B3B93A00CB08FB /* Font */ = {
-			isa = PBXGroup;
-			children = (
-				D6A5F88928B3B96600CB08FB /* Raleway-Black.ttf */,
-				D6A5F88A28B3B96600CB08FB /* Raleway-Bold.ttf */,
-				D6A5F88728B3B96600CB08FB /* Raleway-Light.ttf */,
-				D6A5F88828B3B96600CB08FB /* Raleway-Medium.ttf */,
-				D6A5F88B28B3B96600CB08FB /* Raleway-Regular.ttf */,
-			);
-			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +178,9 @@
 			dependencies = (
 			);
 			name = HelpCenter;
+			packageProductDependencies = (
+				D67BAEFF28B4F51E00967413 /* SupportDocs */,
+			);
 			productName = HelpCenter;
 			productReference = D6A5F84B28B3B85000CB08FB /* HelpCenter.app */;
 			productType = "com.apple.product-type.application";
@@ -285,6 +253,9 @@
 				Base,
 			);
 			mainGroup = D6A5F84228B3B85000CB08FB;
+			packageReferences = (
+				D67BAEFE28B4F51E00967413 /* XCRemoteSwiftPackageReference "SupportDocs" */,
+			);
 			productRefGroup = D6A5F84C28B3B85000CB08FB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -301,13 +272,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6A5F88C28B3B96600CB08FB /* Raleway-Light.ttf in Resources */,
-				D6A5F88F28B3B96600CB08FB /* Raleway-Bold.ttf in Resources */,
-				D6A5F88D28B3B96600CB08FB /* Raleway-Medium.ttf in Resources */,
-				D6A5F89028B3B96600CB08FB /* Raleway-Regular.ttf in Resources */,
 				D6A5F85628B3B85300CB08FB /* Preview Assets.xcassets in Resources */,
 				D6A5F85328B3B85300CB08FB /* Assets.xcassets in Resources */,
-				D6A5F88E28B3B96600CB08FB /* Raleway-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,11 +298,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6A5F88128B3B92100CB08FB /* ViewModel.swift in Sources */,
-				D6A5F87F28B3B91600CB08FB /* SampleView.swift in Sources */,
+				D6A5F87F28B3B91600CB08FB /* DocumentView.swift in Sources */,
 				D6A5F87D28B3B90900CB08FB /* Model.swift in Sources */,
 				D6A5F88528B3B93700CB08FB /* Config.swift in Sources */,
-				D6A5F85128B3B85000CB08FB /* ContentView.swift in Sources */,
 				D6A5F84F28B3B85000CB08FB /* HelpCenterApp.swift in Sources */,
 				D6A5F88328B3B92C00CB08FB /* Constant.swift in Sources */,
 			);
@@ -659,6 +623,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D67BAEFE28B4F51E00967413 /* XCRemoteSwiftPackageReference "SupportDocs" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aheze/SupportDocs";
+			requirement = {
+				kind = exactVersion;
+				version = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D67BAEFF28B4F51E00967413 /* SupportDocs */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D67BAEFE28B4F51E00967413 /* XCRemoteSwiftPackageReference "SupportDocs" */;
+			productName = SupportDocs;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D6A5F84328B3B85000CB08FB /* Project object */;
 }
