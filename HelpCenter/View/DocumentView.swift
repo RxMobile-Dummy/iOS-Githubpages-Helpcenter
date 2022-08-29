@@ -28,21 +28,21 @@ struct DocumentView: View {
       displayName: kHEALTHY,
       displayColor: UIColor.blue
     ) , .init(
-      tags: [kSMOOTHY],
+      tags: [kSMOTHIES],
       displayName: kSMOOTHY,
       displayColor: UIColor.black
     ) , .init(
       tags: [kFASTFOOD],
       displayName: kTESTY,
       displayColor: UIColor.blue
-    )], navigationBar: .init(title: kDOCUMENTS  , titleColor: .black, dismissButtonTitle: kDONE , buttonTintColor: .black, backgroundColor: .white), progressBar: .init(foregroundColor: .green, backgroundColor: .red) , listStyle: .insetGroupedListStyle )
+    )], navigationBar: .init(title: kDOCUMENTS  , titleColor: .black, dismissButtonTitle: kDONE , buttonTintColor: .black, backgroundColor: .white), progressBar: .init(foregroundColor: .green, backgroundColor: .red) , listStyle: .insetGroupedListStyle , navigationViewStyle: .doubleColumnNavigationViewStyle ,other: .init(welcomeView: AnyView(WelcomeView())) )
 
   //MARK: - Body View
   var body: some View {
-    VStack {
+    ZStack {
       Button(kPRESENT_DOCUMENTS_FROM_SWIFTUI) { supportDocsPresented = true }
       .sheet(isPresented: $supportDocsPresented, content: {
-        SupportDocsView(dataSourceURL: datasource! , options: options, isPresented: $supportDocsPresented)
+        SupportDocsView(dataSourceURL: datasource! , options: options, isPresented: $supportDocsPresented )
       })
     }
   }
